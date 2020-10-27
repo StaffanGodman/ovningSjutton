@@ -1,11 +1,11 @@
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Collection;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class UppgiftTre {
     public static void main(String[] args) {
-        List<String> gamblers = new ArrayList<>();
+        Collection<String> gamblers = new ArrayList<>();
         System.out.println("Skriv in alla personer som deltar i tävlingen. Avsluta med enter.");
         String input;
 

@@ -1,11 +1,11 @@
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Scanner;
-import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class UppgiftEtt {
     public static void main(String[] args) {
-        Set<String> gamblers = new HashSet<>();
+        Collection<String> gamblers = new HashSet<>();
         System.out.println("Skriv in alla personer som deltar i tävlingen. Avsluta med enter.");
         String input;
 
@@ -25,7 +25,7 @@ public class UppgiftEtt {
             if (i == winner) {
 
                 System.out.printf("And the winner is: %s !!!", gambler);
-            break;
+                break;
             } else {
                 i++;
             }
